@@ -67,10 +67,22 @@ h5 {
     font-size: 20px;
 }
 
+h6 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
 p {
     margin: 0;
     font-size: 30px;
     font-weight: 300;
+}
+
+b {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 900;
 }
 
 .subtext {
@@ -222,6 +234,100 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .project-card {
+        width: 600px;
+        height: 640px;
+        box-shadow: 5px 5px 20px rgb(197, 195, 195);
+        margin: 20px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .subpages-headshot-container {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .robotArm-picture {
+        width: 100%;
+    }
+
+    .mascot-picture {
+        width: 100%;
+    }
+
+    .basketballGame-picture {
+        width: 100%;
+    }
+
+    .baselineLog-picture {
+        width: 100%;
+    }
+
+    .baselineLog-picture1 {
+        width: 50%;
+    }
+
+    .baselineLog-picture2 {
+        width: 50%;
+    }
+
+    .coronaApocalypseWebsite-picture {
+        width: 100%;
+    }
+
+    .pantryPal-picture {
+        display: flex;
+        width: 100%;
+    }
+
+    .riddleGame-picture {
+        width: 50%;;
+    }
+
+    .riddleGame-picture2 {
+        width: 50%;
+    }
+
+    .riddleGame-picture3 {
+        width: 50%;
+    }
+
+    .energyConservation-picture {
+        width: 50%;
+    }
+
+    .energyConservation-picture1 {
+        width: 50%;
+    }
+
+    .energyConservation-picture2 {
+        width: 50%;
+    }
+
+    .coronaApocalypseLogo-picture {
+        width: 50%;
+        height: 50%;
+    }
+
+    .coronaApocalypseGame-picture {
+        width: 50%;
+        height: 50%;
+    }
+
+    h6 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 40px;
+        word-spacing: 0cm;
+    }
+
 }
 
 .project-image { /* size and position of image on each project card */
@@ -260,8 +366,8 @@ a { /* removes default style of menu options in the 'hero' section, and gives it
         border: 0;
         background-color: transparent;
         color: white;
-        font-size: 30px;
-        margin: 20px;
+        font-size: 80px;
+        margin: 80px;
         align-self: flex-end;
     }
 
@@ -278,11 +384,19 @@ a { /* removes default style of menu options in the 'hero' section, and gives it
     nav {
         display: flex; /* to display items as stacked against each other */
         flex-direction: column-reverse;
+        font-size: 80px;
         background-color: #02050c;
     }
 
-.logo {
-    display: none;
-}
+    .logo {
+        display: none;
+    }
+
+    .project-image { /* size and position of image on each project card */
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+        border-radius: 0px;
+    }
 
 }
