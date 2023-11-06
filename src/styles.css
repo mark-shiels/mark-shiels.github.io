@@ -217,6 +217,31 @@ b {
     text-align: center;
 }
 
+.premierProLogo2 {
+    height: 140px;
+    width: 240px;
+    display: flex;
+    text-align: center;
+}
+
+.MaxLogo2 {
+    height: 140px;
+    width: 130px;
+    display: flex;
+    text-align: center;
+}
+
+.mayaLogo2 {
+    height: 150px;
+}
+
+.illustratorLogo2 {
+    height: 140px;
+    width: 210px;
+    display: flex;
+    text-align: center;
+}
+
 .project-card {
     width: 300px;
     height: 320px;
@@ -227,6 +252,14 @@ b {
 .project-container {
     display: flex; /* displays projects side by side */
     justify-content: space-around; /* spaces the projects evenly from one another across the page */
+}
+
+.backToTopIcon {
+    width: 80px;
+}
+
+.backButton {
+    width: 120px;
 }
 
 @media only screen and (max-width: 1000px) {  /* repositions items when screen gets smaller/narrower */
@@ -375,6 +408,7 @@ a { /* removes default style of menu options in the 'hero' section, and gives it
         display: none; /* makes "About Me", "Projects", and "Contact Me" menu items at the top invisible when screen is smaller/narrower */
         background-color: #02050c;
         margin: 0px;
+        font-size: 60px;
     }
 
     ul.show {
@@ -384,7 +418,7 @@ a { /* removes default style of menu options in the 'hero' section, and gives it
     nav {
         display: flex; /* to display items as stacked against each other */
         flex-direction: column-reverse;
-        font-size: 80px;
+        font-size: 100px;
         background-color: #02050c;
     }
 
